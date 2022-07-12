@@ -5,3 +5,8 @@
 ## License
 
 [MIT](./LICENSE) License © 2022 [K. ( `suressk` )](https://github.com/suressk)
+
+
+```bash
+bumpp && npm publish
+```
