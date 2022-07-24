@@ -48,7 +48,7 @@
     "release": "ts-node scripts/release.ts"
   },
   "dependencies": {
-    "sure-utils": "^1.1.0"
+    "sure-utils": "^1.1.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
@@ -59,7 +59,7 @@
     "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.18.0",
-    "eslint-config-suressk": "^0.1.0",
+    "eslint-config-suressk": "^0.1.2",
     "esno": "^0.16.3",
     "execa": "4.0.2",
     "fs-extra": "^10.1.0",
@@ -85,7 +85,7 @@
   },
   "lint-staged": {
     "*": [
-      "eslint . --fix"
+      "eslint --fix"
     ]
   }
 }

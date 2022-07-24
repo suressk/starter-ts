@@ -12,7 +12,7 @@ importers:
       bumpp: ^8.2.1
       conventional-changelog-cli: ^2.2.2
       eslint: ^8.18.0
-      eslint-config-suressk: ^0.1.0
+      eslint-config-suressk: ^0.1.2
       esno: ^0.16.3
       execa: 4.0.2
       fs-extra: ^10.1.0
@@ -24,14 +24,14 @@ importers:
       prompts: ^2.4.2
       rimraf: ^3.0.2
       semver: ^7.3.7
-      sure-utils: ^1.1.0
+      sure-utils: ^1.1.1
       ts-node: ^10.8.1
       typescript: ^4.7.4
       unbuild: ^0.7.4
       vite: ^2.9.12
       vitest: ^0.15.2
     dependencies:
-      sure-utils: 1.1.0
+      sure-utils: 1.1.1
     devDependencies:
       '@types/fs-extra': 9.0.13
       '@types/minimist': 1.2.2
@@ -41,7 +41,7 @@ importers:
       bumpp: 8.2.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.19.0
-      eslint-config-suressk: 0.1.0_4x5o4skxv6sl53vpwefgt23khm
+      eslint-config-suressk: 0.1.2_4x5o4skxv6sl53vpwefgt23khm
       esno: 0.16.3
       execa: 4.0.2
       fs-extra: 10.1.0
@@ -1726,8 +1726,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-suressk/0.1.0_4x5o4skxv6sl53vpwefgt23khm:
-    resolution: {integrity: sha512-rOHJC1oV1Cfemb6XfyOVbS/XntmL4lgSyRHXvYqBC7NAbiugXXofQBw53CdXN3qbIS59AId3qIRKHPCe9n3jQQ==}
+  /eslint-config-suressk/0.1.2_4x5o4skxv6sl53vpwefgt23khm:
+    resolution: {integrity: sha512-Z17I/66NBy0BOKTAqbyYRDGbrie8LJcv5orBLUOHxQW8P+5IEo9BixZ3oKFdoTO7fqIWT7uB1yvqqzHFFPmhnA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -1747,6 +1747,7 @@ packages:
       eslint-plugin-vue: 9.2.0_eslint@8.19.0
       eslint-plugin-yml: 1.0.0_eslint@8.19.0
       jsonc-eslint-parser: 2.1.0
+      vue-eslint-parser: 9.0.3_eslint@8.19.0
       yaml-eslint-parser: 1.0.1
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -4045,8 +4046,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /sure-utils/1.1.0:
-    resolution: {integrity: sha512-5gzjdFmv4y5igxuHdYz7yk+gYKqNw1yf8Kifhj6J9/h/E+RPfd+Eyr7n5OzUc/xO86M87my0hdc5Y64KRwN1qQ==}
+  /sure-utils/1.1.1:
+    resolution: {integrity: sha512-0qPwbHbky2l+z9HU/BrsqBJ8ua13q6xipKh+jCmLqojnEetcJzKVk/mqm4C+mx3X1EG6XBophnqd2vnaJh4dsQ==}
     dev: false
 
   /temp-dir/2.0.0:
